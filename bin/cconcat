@@ -1,0 +1,10 @@
+#!/usr/bin/env ruby
+# encoding: UTF-8
+
+$LOAD_PATH << File.expand_path(File.join(File.dirname(__FILE__), '../lib'))
+
+require 'cconcat'
+
+concater = CConcat::Concater.new(ARGV[0])
+
+File.write 'bundle.c', concater.concat

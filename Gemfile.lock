@@ -1,0 +1,15 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    rake (10.4.2)
+    version (1.0.0)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  rake
+  version
+
+BUNDLED WITH
+   1.10.6
