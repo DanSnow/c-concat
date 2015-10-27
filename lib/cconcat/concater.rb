@@ -7,8 +7,8 @@ module CConcat
   class Concater
     HEADER = <<-EOD.gsub(/^\s{4}/, '')
     /*
-     * This file is auto generate by cconcat #{CConcat::VERSION}
-     * Project home: https://github.com/DanSnow/cconcat
+     * This file is auto generate by c-concat #{CConcat::VERSION}
+     * Project home: https://github.com/DanSnow/c-concat
      */
      #define _GNU_SOURCE
     EOD
